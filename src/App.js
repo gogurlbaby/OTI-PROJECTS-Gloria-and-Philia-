@@ -1,10 +1,10 @@
-import FileManagement from './Component/FileManagement';
+import Home from './Component/FileManagement/Home';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-     <FileManagement/>
+     <Home/>
     </div>
   );
 }
