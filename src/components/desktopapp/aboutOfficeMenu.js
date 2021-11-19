@@ -10,63 +10,63 @@ const AboutMenu = () => {
     return (
         <Menu secondary vertical borderless>
             <Menu.Item>
-                <Menu.Header>OTI Products</Menu.Header>
+                <Menu.Header>Products</Menu.Header>
 
                 <Menu.Menu>
                     <Menu.Item
-                        name='Organic White Fonio'
-                        active={activeItem === 'fonio'}
+                        name='enterprise'
+                        active={activeItem === 'enterprise'}
                         onClick={handleItemClick}
                     />
                     <Menu.Item
-                        name='Organic Ivory Shea Butter'
-                        active={activeItem === 'sheabutter'}
+                        name='consumer'
+                        active={activeItem === 'consumer'}
                         onClick={handleItemClick}
                     />
                 </Menu.Menu>
             </Menu.Item>
 
             <Menu.Item>
-                <Menu.Header>CRM Systems</Menu.Header>
+                <Menu.Header>CMS Solutions</Menu.Header>
 
                 <Menu.Menu>
                     <Menu.Item
-                        name='Trello'
-                        active={activeItem === 'trello'}
+                        name='rails'
+                        active={activeItem === 'rails'}
                         onClick={handleItemClick}
                     />
                     <Menu.Item
-                        name='Zoha'
-                        active={activeItem === 'zoha'}
+                        name='python'
+                        active={activeItem === 'python'}
                         onClick={handleItemClick}
                     />
-                    {/* <Menu.Item
+                    <Menu.Item
                         name='php'
                         active={activeItem === 'php'}
                         onClick={handleItemClick}
-                    /> */}
+                    />
                 </Menu.Menu>
             </Menu.Item>
 
             <Menu.Item>
-                <Menu.Header>Export System</Menu.Header>
+                <Menu.Header>Hosting</Menu.Header>
 
                 <Menu.Menu>
                     <Menu.Item
-                        name='Organic White Fonio'
-                        active={activeItem === 'fonio'}
+                        name='shared'
+                        active={activeItem === 'shared'}
                         onClick={handleItemClick}
                     />
                     <Menu.Item
-                        name='Organic Yellow Shea Butter'
-                        active={activeItem === 'sheabutter'}
+                        name='dedicated'
+                        active={activeItem === 'dedicated'}
                         onClick={handleItemClick}
                     />
                 </Menu.Menu>
             </Menu.Item>
 
             <Menu.Item>
-                <Menu.Header>Customer Support</Menu.Header>
+                <Menu.Header>Support</Menu.Header>
 
                 <Menu.Menu>
                     <Menu.Item
@@ -78,11 +78,11 @@ const AboutMenu = () => {
             </Menu.Item>
 
                     <Menu.Item
-                        name='livechat'
-                        active={activeItem === 'livechat'}
+                        name='faq'
+                        active={activeItem === 'faq'}
                         onClick={handleItemClick}
                     >
-                        Live Chat
+                        FAQs
             </Menu.Item>
                 </Menu.Menu>
             </Menu.Item>
