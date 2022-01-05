@@ -1,7 +1,7 @@
 import React from 'react';
 import {Menu} from 'semantic-ui-react';
 import {useState} from 'react';
-import Feed from '../desktopapp/feed'
+import Feeds from '../desktopapp/feed'
 
 const PostMenu = () =>{
 
@@ -22,6 +22,7 @@ const PostMenu = () =>{
     // }
 
     return (
+       <div>
         <Menu secondary pointing fluid widths={2}>
             <Menu.Item
                 name="live wall"
@@ -39,8 +40,11 @@ const PostMenu = () =>{
                 Networking
             </Menu.Item>
 
-           
-        </Menu>
+           </Menu>
+            {
+            activeItem === "live wall" ? <Feeds/>: 'none'
+        }
+        </div>
     )
 }
 
